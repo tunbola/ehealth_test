@@ -4,5 +4,5 @@ A TODO list app was created with angular-pouch db as requested for.
 Discussion on transversing a tree Depth first is in a text file in the parent folder for the repository.
 
 
-Please run bower install to set up the dependencies required for the project
+Please run bower install in the angular-pouch-db-app folder to set up the dependencies required for the project
 Thanks.
