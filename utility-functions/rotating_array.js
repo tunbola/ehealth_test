@@ -1,3 +1,4 @@
+//sample usage rotate_array([1,2,3,4,5,6], 2)
 function rotate_array(input_array, n_position){
     
      var output_array = [];

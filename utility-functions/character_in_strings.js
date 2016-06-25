@@ -1,3 +1,4 @@
+//sample usage find_chars_NN('mandilas','mdandildds');
 function find_chars_NN(string1, string2){
      var commmon_chars = '';
 	 for(var i=0; i<string1.length; i++){
