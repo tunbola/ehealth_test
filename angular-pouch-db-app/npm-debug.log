@@ -1,0 +1,65 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'karma',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.0
+3 info using node@v5.1.0
+4 verbose install initial load of /Applications/MAMP/htdocs/ehealth-angular/package.json
+5 verbose readDependencies loading dependencies from /Applications/MAMP/htdocs/ehealth-angular/package.json
+6 silly cache add args [ 'karma', null ]
+7 verbose cache add spec karma
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'karma',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'karma',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed karma@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for karma
+11 info addNameTag [ 'karma', 'latest' ]
+12 silly mapToRegistry name karma
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry http://npm.igbimo.com:4873/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'karma',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'karma',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri http://npm.igbimo.com:4873/karma
+17 verbose addNameTag registry:http://npm.igbimo.com:4873/karma not in flight; fetching
+18 verbose request uri http://npm.igbimo.com:4873/karma
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 1:06:38 PM
+21 verbose request id 62b80d835019363e
+22 http request GET http://npm.igbimo.com:4873/karma
+23 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 54.77.83.230:4873
+24 info attempt registry request try #2 at 1:08:04 PM
+25 http request GET http://npm.igbimo.com:4873/karma
+26 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 54.77.83.230:4873
+27 info attempt registry request try #3 at 1:10:19 PM
+28 http request GET http://npm.igbimo.com:4873/karma
+29 verbose stack Error: connect ETIMEDOUT 52.49.71.216:4873
+29 verbose stack     at Object.exports._errnoException (util.js:856:11)
+29 verbose stack     at exports._exceptionWithHostPort (util.js:879:20)
+29 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1063:14)
+30 verbose cwd /Applications/MAMP/htdocs/ehealth-angular
+31 error Darwin 15.5.0
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "karma" "--save-dev"
+33 error node v5.1.0
+34 error npm  v2.15.0
+35 error code ETIMEDOUT
+36 error errno ETIMEDOUT
+37 error syscall connect
+38 error network connect ETIMEDOUT 52.49.71.216:4873
+38 error network This is most likely not a problem with npm itself
+38 error network and is related to network connectivity.
+38 error network In most cases you are behind a proxy or have bad network settings.
+38 error network
+38 error network If you are behind a proxy, please make sure that the
+38 error network 'proxy' config is set properly.  See: 'npm help config'
+39 verbose exit [ 1, true ]
